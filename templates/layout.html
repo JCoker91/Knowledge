@@ -7,13 +7,27 @@
     <link rel="stylesheet" href="{{ url_for('static', filename='main.css') }}">
 </head>
 <body>
-    
+    <nav>
+        <ul class="main-nav">
+            <li>Home</li>
+            <li>Documentation</li>
+            <li>Account</li>
+        </ul>
+    </nav>
 
-<!--  -->
-    <br>
-    {% block content %}{% endblock %}
-    <br>
-<!--  -->
+    <div class="body-content">
+        <div class="side-bar-container">
+            <input class="sid-bar-search" type="text">
+            <ul class="side-bar-nav">
+                <li>Recent Posts</li>
+                <li>Favorites</li>
+                <li>Documentation</li>
+            </ul>
+        </div>
+        <div class="page-content-container">
+        {% block content %}{% endblock %}
+        </div>
+    </div>
 
 
 </body>
