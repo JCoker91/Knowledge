@@ -20,6 +20,7 @@ body{
 .body-content {
     display: grid;
     grid-template-areas: "side-bar page-content page-content page-content page-content";
+    height: 100%;
 }
 
 .side-bar-container {
@@ -28,8 +29,16 @@ body{
     border: red solid 1px;
 }
 
+.side-bar-nav {
+    color: white;
+}
+
 .page-content-container {
     grid-area: page-content;
     border: yellow solid 1px;
+}
+
+.test1{
+    color: white;
 }
 
