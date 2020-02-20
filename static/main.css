@@ -1,13 +1,35 @@
 body{
     margin: 0;
     padding: 0;
-    border: none;
+    border: orange solid 1px;
+    background-color: #000000;
 }
 
 .main-nav {
     display: flex;
+    font-size: 1rem;
+    padding: .5rem;
+    margin: 0;
     list-style-type: none;
-    color: red;
-    background-color: #2288AA;
+    color: #EEEEEE;
+    background-color: rgb(6, 52, 150);
+    justify-content: space-around;
+    box-shadow: black 2px 2px 2px;
+}
+
+.body-content {
+    display: grid;
+    grid-template-areas: "side-bar page-content page-content page-content page-content";
+}
+
+.side-bar-container {
+    grid-area: side-bar;
+    background-color: #111111;
+    border: red solid 1px;
+}
+
+.page-content-container {
+    grid-area: page-content;
+    border: yellow solid 1px;
 }
 
