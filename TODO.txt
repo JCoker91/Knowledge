@@ -1,0 +1,2 @@
+1. Add feature to upload documents or create directly.
+2. Import from Google docs and sheets
