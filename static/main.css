@@ -1,11 +1,13 @@
-.test1 {
-    background-color: yellow;
+body{
+    margin: 0;
+    padding: 0;
+    border: none;
 }
 
-.test2 {
-    background-color: red;
+.main-nav {
+    display: flex;
+    list-style-type: none;
+    color: red;
+    background-color: #2288AA;
 }
 
-.test3 {
-    background-color: blue;
-}
