@@ -13,6 +13,7 @@ body{
 
 .main-nav {
     display: flex;
+    justify-content: space-between;
     list-style-type: none;
     color: #EEEEEE;
     background-color: rgba(4, 39, 114, 0.712);
