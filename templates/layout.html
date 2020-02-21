@@ -5,10 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>KFCS KB</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='main.css') }}">
+    <script src="https://kit.fontawesome.com/7caf783d4a.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <nav>
-        <ul class="main-nav">
+    <nav class="main-nav">
+        <ul class="nav-bar">
             <li>Home</li>
             <li>Documentation</li>
             <li>Account</li>
@@ -16,11 +17,11 @@
     </nav>
     <div class="body-content">
         <div class="side-bar-container">
-            <input class="sid-bar-search" type="text">
+            <input class="side-bar-search" placeholder="Search" type="text">
             <ul class="side-bar-nav">
-                <li>Recent Posts</li>
-                <li>Favorites</li>
-                <li>Documentation</li>
+                <li><i class="fas fa-chevron-right"></i> Recent Posts</li>
+                <li><i class="fas fa-chevron-right"></i> Favorites</li>
+                <li><i class="fas fa-chevron-right"></i> Documentation</li>
             </ul>
         </div>
         <div class="page-content-container">
