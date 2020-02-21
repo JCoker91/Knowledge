@@ -16,7 +16,6 @@ body{
     list-style-type: none;
     color: #EEEEEE;
     background-color: rgb(6, 52, 150);
-    /* justify-content: space-around; */
     box-shadow: black 2px 2px 2px;
     width: 100%;
 }
@@ -24,7 +23,6 @@ body{
 .nav-bar {
     display: flex;
     border: red 2px solid;
-    
 }
 
 .nav-bar li {
