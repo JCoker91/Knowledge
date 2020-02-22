@@ -1,2 +1,17 @@
 1. Add feature to upload documents or create directly.
 2. Import from Google docs and sheets
+
+
+Knowledge base method idea:
+
+Documents will be written in a specific folder in Google Drive.
+The server will create a file system-like structure in the navigation pane.
+When a document is clicked in the nav pane, it will be rendered in the main page.
+Creating a new KB will ultimately just create a new doc in the KB folder.
+Editing a document will edit in the KB folder. 
+No interaction should be required with the actual Google docs folder but it will act as a database of sorts. 
+
+Possible features:
+- New KB Approval? Notification via email. All KBs could potential go through the IT director.
+- Editing functions within the site? Bold, Italics, etc.
+- 
